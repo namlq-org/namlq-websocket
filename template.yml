@@ -9,7 +9,7 @@ Description: >
 Parameters:
   TableName:
     Type: String
-    Default: 'vista_connections'
+    Default: 'namlq_connections'
     Description: (Required) The name of the new DynamoDB to store connection identifiers for each connected clients. Minimum 3 characters
     MinLength: 3
     MaxLength: 50
